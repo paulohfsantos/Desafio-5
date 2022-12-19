@@ -22,7 +22,7 @@
 - Spring Data JPA
 - Spring Hateoas
 - Lombok
-- Squiggly Filter For Jackson
+- Squiggly Filter
 
 ## <a name="instalacao"></a>Instalacao
 
