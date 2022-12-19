@@ -26,6 +26,7 @@ public class Transferencia {
 	@Id
 	@EqualsAndHashCode.Include
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnore
 	private Long id;
 	
 	@Column(name = "data_transferencia")
