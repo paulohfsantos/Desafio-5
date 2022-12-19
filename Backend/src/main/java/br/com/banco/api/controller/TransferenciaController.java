@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.banco.core.hypermedia.BancoLinks;
+import br.com.banco.api.hypermedia.BancoLinks;
 import br.com.banco.domain.filter.TransferenciaFiltro;
 import br.com.banco.domain.model.Transferencia;
 import br.com.banco.domain.repository.TransferenciaRepository;

@@ -1,4 +1,5 @@
-package br.com.banco.core.hypermedia;
+package br.com.banco.api.hypermedia;
+
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
