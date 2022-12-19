@@ -11,7 +11,7 @@ import lombok.Setter;
 @Setter
 @Getter
 public class TransferenciaFiltro {
-
+	
 	private Long contaId;
 	
 	@DateTimeFormat(iso = ISO.DATE_TIME)

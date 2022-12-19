@@ -1,4 +1,4 @@
-package br.com.banco.core;
+package br.com.banco.core.squiggly;
 
 import java.util.Arrays;
 

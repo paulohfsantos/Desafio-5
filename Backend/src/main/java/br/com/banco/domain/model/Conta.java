@@ -10,8 +10,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -30,6 +28,5 @@ public class Conta {
 	private String nomeResponsavel;
 	
 	@OneToMany(mappedBy = "conta")
-	@JsonIgnore
 	private List<Transferencia> transferencias = new ArrayList<>();
 }

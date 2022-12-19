@@ -15,10 +15,10 @@ public class TransferenciaSpecs {
 		return (root, query, builder) -> {
 			var predicates = new ArrayList<Predicate>();
 			
-			if(filtro.getContaId() != null){
+			if(filtro.getContaId() != null) {
 				predicates.add(builder.equal(root.get("conta"), filtro.getContaId()));
 			}
-			
+				
 			if(filtro.getDataCriacaoInicio() != null) {
 				predicates.add(builder.greaterThanOrEqualTo(root.get("dataTransferencia"), filtro.getDataCriacaoInicio()));
 			}
