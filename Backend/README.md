@@ -15,7 +15,7 @@
 - Spring Boot
 - Lombok
 
-## <a name="tecnologias"></a>Tecnologias
+## <a name="tecnologias"></a>Tecnologias Usadas
 
 - Java
 - Spring Boot
@@ -30,4 +30,4 @@
 - Importe-o como MAVEN project;
 
 ## <a name="executando-aplicacao"></a>Executando Aplicação
-- Esta aplicação possui Spring Heateoas. Após executar a api, acesse http://localhost:8080 para ter acesso ao ponto de entrada da aplicação.
+- Esta aplicação possui Spring Heateoas. Após executar a api, acesse http://localhost:8080 para ter acesso ao ponto de entrada.
