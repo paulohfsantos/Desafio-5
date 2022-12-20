@@ -1,0 +1,1 @@
+export const GET_TRANSFER = 'GET_TRANSFER';
